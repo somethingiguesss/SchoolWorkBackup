@@ -1,5 +1,5 @@
 services:
   - type: web
-    name: schoolwork
+    name: seraph
     env: docker
     plan: free
