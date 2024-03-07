@@ -2,9 +2,9 @@ FROM node:20-alpine
 
 RUN apk add --no-cache git
 
-RUN git clone https://github.com/somethingiguesss/SchoolWork.git
+RUN git clone https://github.com/somethingiguesss/seraph.git
 
-WORKDIR /SchoolWork
+WORKDIR /seraph
 RUN npm install
 
 CMD npm start
